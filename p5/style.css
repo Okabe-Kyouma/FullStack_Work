@@ -1,0 +1,29 @@
+.outer{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: green;
+}
+
+.innerest{
+
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 23px;
+    margin-top: 24px;
+    background-color: blue;
+
+}

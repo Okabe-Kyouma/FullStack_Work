@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium-Where good ideas find you.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="icons8-medium-16.png" type="image/png">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navbar = document.querySelector('.navbar');
+            const scrollThreshold = 370; // Adjust this value to your desired scroll point
+            const image = document.getElementById('myImage');
+            const get = document.getElementById('get');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY >= scrollThreshold) {
+                    navbar.style.backgroundColor = 'white';
+                    image.style.filter = 'grayscale(100%) brightness(1000%)';
+                    get.style.backgroundColor = 'rgb(26, 137, 23)';
+                    get.style.borderColor = 'rgb(26, 137, 23)';
+
+                    get.addEventListener('mouseover', function () {
+                        get.style.backgroundColor = '#006400';
+                        get.style.borderColor = '#006400';
+                    });
+                    get.addEventListener('mouseout', function () {
+                        get.style.backgroundColor = 'rgb(26, 137, 23)';
+                        get.style.borderColor = 'rgb(26, 137, 23)';
+                    });
+
+
+                } else {
+                    navbar.style.backgroundColor =
+                        '#ffc017'; // Reset to transparent if not scrolled far enough
+                    image.style.filter = '';
+                    get.style.backgroundColor = 'black';
+                    get.style.borderColor = 'black';
+                    get.addEventListener('mouseout', function () {
+                        get.style.backgroundColor = 'rgb(26, 137, 23)';
+                        get.style.borderColor = 'rgb(26, 137, 23)';
+                    });
+                }
+            });
+        });
+    </script>
+
+
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img id="myImage" src="logo.png" alt="">
+        </div>
+        <div class="links">
+            <a href="">Our Story</a>
+            <a href="">Membership</a>
+            <a href="">Write</a>
+            <a href="">Sign in</a>
+            <a id="get" href="">Get Started</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="top1">
+            <h1 class="stay">Stay curious.</h1>
+            <h4 class="discover">Discover stories,thinking,and expertise <br> from writers on any topic.</h4>
+            <div class="secret">
+                <a class="start-reading" href="">Start reading</a>
+            </div>
+        </div>
+        <div class="top2">
+
+            <div class="line1">
+                <span style="position: relative; left: 120px;">M</span>
+                <span style="position: relative; left: 120px;">M</span>
+                <span style="position: relative; left: 160px;">M</span>
+                <span style="position: relative; left: 220px;">M</span>
+                <span class="a1" style="position: relative; left: 240px;">M</span>
+                <span style="position: relative; left: 300px;">M</span>
+                <span style="margin-left: 300px;">M</span>
+            </div>
+
+            <div class="line2">
+                <span style="position: relative;right: 30px;">M</span>
+                <span class="a2" style="position: relative; right: 30px;">M</span>
+                <span>M</span>
+                <span>M</span>
+                <span>M</span>
+                <span style="position: relative; left: 40px;">M</span>
+                <span class="a3" style="position: relative;left: 40px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative; left: 110px;">M</span>
+                <span style="position: relative;left: 130px;">M</span>
+            </div>
+
+            <div class="line3">
+                <span style="position: relative;right: 100px;">M</span>
+                <span class="a4" style="position: relative; right: 80px;">M</span>
+                <span style="position: relative; right: 50px;">M</span>
+                <span style="position: relative; right: 30px;">M</span>
+                <span style="position: relative; right: 30px;">M</span>
+                <span style="position: relative; left: 0px;">M</span>
+                <span class="a5" style="position: relative;left: 0px;">M</span>
+                <span style="position: relative;left: 30px;">M</span>
+                <span style="position: relative;left: 30px;">M</span>
+                <span style="position: relative;left: 30px;">M</span>
+                <span style="position: relative;left: 30px;">M</span>
+                <span style="position: relative;left: 30px;">M</span>
+                <span style="position: relative; left: 110px;">M</span>
+                <span style="position: relative;left: 130px;">M</span>
+                <span style="position: relative;left: 130px;">M</span>
+            </div>
+
+            <div class="line4">
+                <span style="position: relative;left: 470px;">M</span>
+                <span style="position: relative;left: 370px;">M</span>
+            </div>
+
+            <div class="line5">
+                <span>M</span>
+                <span>M</span>
+                <span>M</span>
+                <span>M</span>
+                <span class="a9">M</span>
+                <span style="position: relative;left: 100px;">M</span>
+                <span class="a8" style="position: relative;left: 130px;">M</span>
+                <span style="position: relative;left: 150px;">M</span>
+                <span style="position: relative;left: 170px;">M</span>
+                <span class="a7" style="position: relative;left: 190px;">M</span>
+                <span style="position: relative;left: 203px;">M</span>
+                <span class="a6" style="position: relative;left: 203px;">M</span>
+            </div>
+
+            <div class="line6">
+                <span style="position: relative;left: 20px;">M</span>
+                <span class="a12" style="position: relative;left: 20px;">M</span>
+                <span class="a11" style="position: relative;left: 150px;">M</span>
+                <span style="position: relative;left: 170px;">M</span>
+                <span style="position: relative;left: 190px;">M</span>
+                <span style="position: relative;left: 203px;">M</span>
+                <span style="position: relative;left: 243px;">M</span>
+                <span class="a10" style="position: relative;left: 243px;">M</span>
+                <span style="position: relative;left: 274px;">M</span>
+            </div>
+
+            <div class="line7">
+                <span style="position: relative;left: 117px;">M</span>
+                <span class="a13" style="position: relative;left: 217px;">M</span>
+                <span style="position: relative;left: 297px;">M</span>
+                <span class="a14" style="position: relative;left: 397px;">M</span>
+            </div>
+
+            <div class="line8">
+                <span class="a15" style="position: relative; left: 120px;">M</span>
+                <span class="a16" style="position: relative; left: 120px;">M</span>
+                <span style="position: relative; left: 160px;">M</span>
+                <span style="position: relative; left: 220px;">M</span>
+                <span class="a17" style="position: relative; left: 240px;">M</span>
+                <span style="position: relative; left: 300px;">M</span>
+                <span style="margin-left: 300px;">M</span>
+            </div>
+
+            <div class="line9">
+                <span style="position: relative;right: 30px;">M</span>
+                <span class="a18" style="position: relative; right: 30px;">M</span>
+                <span>M</span>
+                <span>M</span>
+                <span>M</span>
+                <span style="position: relative; left: 40px;">M</span>
+                <span class="a19" style="position: relative;left: 40px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative;left: 70px;">M</span>
+                <span style="position: relative; left: 110px;">M</span>
+                <span style="position: relative;left: 130px;">M</span>
+            </div>
+
+            <div class="line10">
+                <span style="position: relative;right: 100px;">M</span>
+                <span class="a20" style="position: relative; right: 80px;">M</span>
+                <span style="position: relative; right: 50px;">M</span>
+                <span style="position: relative; right: 30px;">M</span>
+                <span style="position: relative; right: 30px;">M</span>
+                <span style="position: relative; left: 0px;">M</span>
+                <span class="a21" style="position: relative;left: 0px;">M</span>
+                <span style="position: relative;left: 30px;">M</span>
+                <span style="position: relative;left: 30px;">M</span>
+                <span style="position: relative;left: 30px;">M</span>
+                <span style="position: relative;left: 30px;">M</span>
+                <span class="a22" style="position: relative;left: 30px;">M</span>
+                <span style="position: relative; left: 110px;">M</span>
+                <span style="position: relative;left: 130px;">M</span>
+                <span style="position: relative;left: 130px;">M</span>
+            </div>
+
+            <div class="line11">
+                <span style="position: relative;left: 470px;">M</span>
+                <span style="position: relative;left: 370px;">M</span>
+            </div>
+
+            <div class="line12">
+                <span>M</span>
+                <span class="a23">M</span>
+                <span>M</span>
+                <span class="a24">M</span>
+                <span>M</span>
+                <span style="position: relative;left: 100px;">M</span>
+                <span style="position: relative;left: 130px;">M</span>
+                <span class="a25" style="position: relative;left: 150px;">M</span>
+                <span class="a26" style="position: relative;left: 170px;">M</span>
+                <span style="position: relative;left: 190px;">M</span>
+                <span style="position: relative;left: 203px;">M</span>
+                <span class="a27" style="position: relative;left: 203px;">M</span>
+            </div>
+
+            <div class="line13">
+                <span style="position: relative;left: 20px;">M</span>
+                <span class="a28" style="position: relative;left: 20px;">M</span>
+                <span style="position: relative;left: 150px;">M</span>
+                <span style="position: relative;left: 170px;">M</span>
+                <span style="position: relative;left: 190px;">M</span>
+                <span style="position: relative;left: 203px;">M</span>
+                <span class="a29" style="position: relative;left: 243px;">M</span>
+                <span class="a30" style="position: relative;left: 243px;">M</span>
+                <span style="position: relative;left: 274px;">M</span>
+            </div>
+
+            <div class="line14">
+                <span class="a31" style="position: relative;left: 117px;">M</span>
+                <span style="position: relative;left: 217px;">M</span>
+                <span style="position: relative;left: 297px;">M</span>
+                <span style="position: relative;left: 397px;">M</span>
+            </div>
+
+            <div class="line15">
+                <span style="position: relative;left: 20px;">M</span>
+                <span style="position: relative;left: 20px;">M</span>
+                <span style="position: relative;left: 150px;">M</span>
+                <span class="a32" style="position: relative;left: 170px;">M</span>
+                <span class="a33" style="position: relative;left: 190px;">M</span>
+                <span style="position: relative;left: 203px;">M</span>
+                <span style="position: relative;left: 243px;">M</span>
+                <span style="position: relative;left: 243px;">M</span>
+                <span class="a34" style="position: relative;left: 274px;">M</span>
+            </div>
+
+            <div class="line16">
+                <span style="position: relative;left: 117px;">M</span>
+                <span class="a36" style="position: relative;left: 217px;">M</span>
+                <span style="position: relative;left: 297px;">M</span>
+                <span class="a35" style="position: relative;left: 397px;">M</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="twond">
+
+        <img class="arrow" src="Arrow.png" alt="">
+        <p class="trend">Trending on Medium</p>
+        <div class="item1 c">
+            <p class="count">01</p>
+            <div style="display: inline-block;" class="count1">
+                <img src="i1.jpg" alt="">
+                <p>Bryn Bodayle in The Airbnb Tech Blog</p>
+            </div>
+            <h6 class="text1 text3">Unlocking SwiftUI at Airbnb</h6>
+            <div class="below">
+                <p class="date">Sep 25</p>
+                <ul class="list">
+                    <li class="list-item">6 min read</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item2 c">
+            <p class="count">02</p>
+            <div style="display: inline-block;" class="count1">
+                <img src="i2.png" alt="">
+                <p>Katie Cooper in UX Collective</p>
+            </div>
+            <h6 class="text1 text3">Be Kind,Be Kind, Be Kind</h6>
+            <div class="below">
+                <p class="date">Sep 25</p>
+                <ul class="list">
+                    <li class="list-item">19 min read</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item3 c">
+            <p class="count">03</p>
+            <div style="display: inline-block;" class="count1">
+                <img src="i3.jpg" alt="">
+                <p>Jonathan Lethem</p>
+            </div>
+            <h6 class="text1 text3">Mastering Customer Segmentation <br> with LLM</h6>
+            <div class="below">
+                <p class="date">Sep 22</p>
+                <ul class="list">
+                    <li class="list-item">4 min read</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item4 c">
+            <p class="count count2">04</p>
+            <div style="display: inline-block;" class="count1 count2">
+                <img src="i4.png" alt="">
+                <p>Tim Schopf in Towards Data Science</p>
+            </div>
+            <h6 class="text2 text1 text3">Color for brand designers working <br> with product teams</h6>
+            <div class="below">
+                <p class="date">Sep 24</p>
+                <ul class="list">
+                    <li class="list-item">9 min read</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item5 c">
+            <p class="count count2">05</p>
+            <div style="display: inline-block;" class="count1 count2">
+                <img src="i5.jpg" alt="">
+                <p>Brent R. Stockwell, ph.D. in Wise & Well</p>
+            </div>
+            <h6 class="text2 text1 text3">Change These 12 IOS 17 Settings <br> Right Now For a Superior....</h6>
+            <div class="below">
+                <p class="date">Sep 23</p>
+                <ul class="list">
+                    <li class="list-item">8 min read</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item6 c">
+            <p class="count count2">06</p>
+            <div style="display: inline-block;" class="count1 count2">
+                <img src="i5.jpg" alt="">
+                <p>Ossiana Tepfenhart in Bitchy</p>
+            </div>
+            <h6 class="text2 text1 text3">Mysterious Fats Fuel Disease More <br> Than We Knew,New Reasearch...</h6>
+            <div class="below">
+                <p class="date">Sep 22</p>
+                <ul class="list">
+                    <li class="list-item">11 min read</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr style="margin-top: 30px;">
+    <div class="threend">
+
+        <div class="threendOne">
+
+
+            <div class="main3">
+                <div class="e1">
+                  
+                    <img class="mi" src="Bigimgtitle1.jpg" alt="">
+                    <span class="me">Bryn Bodayle in The Airbnb Tech Blog</span>
+                <img class="mmi mme" src="Bigimg1.jpg" alt="">
+                </div>
+                <div class="e2">
+                   
+                    <img class="mi" src="Bigimgtitle2.png" alt="">
+                    <span class="me">Clayton Moulynox in ILLUMINATION</span>
+                    <img class="mmi mme" src="Bigimg2.png" alt="">
+                </div>
+                <div class="e3">
+                   
+                    <img class="mi" src="Bigimgtitle3.jpg" alt="">
+                    <span class="me">Whitney Alese in ZORA'S care of ZOR</span>
+                    <img class="mmi mme g3 g5 g7"  src="Bigimg3.jpg" alt="">
+                </div>
+                <div class="e4">
+                   
+                    <img class="mi" src="Bigimgtitle4.png" alt="">
+                    <span class="me">Heather McLeod in Human Parts</span>
+                    <img class="mmi mme g4"  src="Bigimg4.png" alt="">
+                </div>
+                <div class="e5">
+                  
+                    <img class="mi" src="Bigimgtitle5.png" alt="">
+                    <span class="me">Judy Lash Balint in the space of Vain</span>
+                    <img class="mmi mme g3 g5"  src="Bigimg5.jpg" alt="">
+                </div>
+                <div class="e6">
+                   
+                    <img class="mi" src="Bigimgtitle6.jpg" alt="">
+                    <span class="me">Tara Haelle in Long COVID Connection</span>
+                  <img class="mmi mme"  src="bigimg6.jpg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="threendTwo">
+            <div class="main2">
+                <div class="stick">
+                    <h6 class="dis">Discover more of what matters to you</h6>
+                    <div class="spans">
+                        <span class="pro1">Programming</span>
+                        <span class="pro2">Data Science</span>
+                        <span class="pro3">Technology</span>
+                    </div>
+                    <br>
+                    <div class="span1">
+                        <span class="pro4">Self Improvement</span>
+                        <span class="pro5">Writing</span>
+                        <span class="pro6">Relationships</span>
+                    </div>
+                    <br>
+                    <div class="span2">
+                        <span class="pro7">Machine Learning</span>
+                        <span class="pro8">Productivity</span>
+                        <span class="pro10">Politics</span>
+                    </div>
+                    <br>
+
+                    <div class="see">
+                        <a href="www.google.com/seemore" class="more">See more topics</a>
+                    </div>
+                </div>
+                <hr style="margin-top: 30px; width: 538px; margin-left: 30px; opacity: 0.1;">
+                <div class="mainExtra">
+                    <div class="extra">
+                        <span class="ex">Help</span>
+                        <span class="ex">Status</span>
+                        <span class="ex">Writers</span>
+                        <span class="ex">Blog</span>
+                        <span class="ex">Careers</span>
+                        <span class="ex">Privacy</span>
+                        <br>
+                    </div>
+                    <div class="extra2">
+                        <span class="ex">Terms</span>
+                        <span class="ex">About</span>
+                        <span class="ex">Text to speech</span>
+                        <span class="ex">Teams</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

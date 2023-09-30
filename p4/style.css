@@ -1,0 +1,844 @@
+.navbar{
+
+    background-color: 
+    #ffc017;
+    height: 75px;
+    /* width: 100vw; */
+    border-bottom: 1px solid black;
+    z-index: 1000;
+    transition: background-color 0.9s ease;
+
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+.logo img{
+    height: 45px;
+    margin-left: 110px;
+    transition: filter 0.9s ease;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 0.8rem;
+}
+
+.links{
+    margin-right: 145px;
+}
+
+#get{
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding: 10px 15px 10px 15px;
+    transition: background-color 0.9s ease;
+    transition: border-color 0.9s ease;
+
+}
+
+div.main{
+    height: 529px;
+    background-color: #ffc017;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    border-bottom: 1px solid black;
+}
+
+.stay{
+  font-size: 90px;
+  /* margin-bottom: 80px; */
+  margin-left: 160px;
+  margin-top: 80px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.top2{
+
+    font-size: 20px;
+    /* margin-left: 340px; */
+    margin-top: 100px;
+
+}
+
+.discover{
+
+ margin-left: 160px;
+ max-lines: 2;
+ margin-top: 50px;
+ font-size: 1.3rem;
+}
+
+.start-reading{
+    margin-left: 160px;
+    text-decoration: none;
+    margin-top: 30px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.secret{
+    margin-top: 50px;
+}
+
+.m{
+    width: 550px;
+     height: 430px;
+    margin-top: 75px;
+}
+
+div.twond{
+    height: 340px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 200px 140px;
+    grid-template-columns: 12vw 25vw 25vw 25vw 8vw;
+}
+
+div.threend{
+    height: 2000px;
+}
+
+.top1{
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+.arrow{
+    height: 28px;
+    width: 28px;
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-top: 30px;
+}
+
+.trend{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-top: 34px;
+    margin-left: 40px;
+}
+
+.item1{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+/* border: 1px solid black; */
+}
+.item2{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    /* border: 1px solid black; */
+}
+.item3{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 4/5;
+    /* border: 1px solid black; */
+}
+.item4{
+    display: grid;
+    grid-row: 2/3;
+    grid-column:2/3 ;
+    /* border: 1px solid black; */
+}
+.item5{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    /* border: 1px solid black; */
+}
+.item6{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 4/5;
+    /* border: 1px solid black; */
+}
+
+/* .count1{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+} */
+
+.c{
+    display: inline-block;
+}
+
+.count{
+    margin-top: 65px;
+    opacity: 0.2;
+    font-size: 33px;
+    display: inline-block;
+}
+
+.count1{
+margin-bottom: 50px;
+}
+
+div.c div.count1 img{
+
+    height: 22px;
+    width: 22px;
+    border-radius: 40%;
+    margin-left: 8px;
+    display: inline-block;
+    
+}
+
+.div.count1{
+    display: inline-block;
+}
+
+div.c div.count1 p{
+    display: inline-block;
+    font-size: 0.7rem;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 8px;
+    font-weight: 700;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text1{
+    position: relative;
+    left: 50px;
+    bottom: 73px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #242424;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text2{
+    position: relative;
+    bottom: 76px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.count2{
+    /* margin-top: 160px; */
+    position: relative;
+    bottom: 60px;
+    height: 1px;
+}
+
+.below{
+    /* opacity: 0.8; */
+    font-size: 12px;
+    color: #6B6B6B;
+    font-weight: 400;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    left: 50px;
+    bottom: 65px;
+}
+
+.list{
+    position: relative;
+    left: 65px;
+    bottom: 16px;
+}
+
+.text3{
+    font-weight: bolder;
+}
+
+.top2{
+    margin-left: 270px;
+    height: 300px;
+}
+
+.a{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.m{
+    animation-name: anim;
+    animation-direction: alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim {
+    
+    0%{
+       visibility: hidden;
+       position: relative;
+    }
+    25%{
+        /* display: none; */
+        position: relative;
+    }
+    50%{
+       visibility: hidden;
+        position: relative;
+    }
+    75%{
+       position: relative;
+    }
+    100%{
+       visibility: visible;
+        position: relative;
+    }
+    
+    }
+
+
+
+/* .m{
+    
+    animation-name: anime;
+    animation-direction: alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes anime {
+    
+0%{
+
+}
+25%{
+    display: none;
+}
+50%{
+    
+}
+75%{
+    display: none;
+}
+100%{
+    display: inline;
+}
+
+}
+
+.m2{
+
+
+    animation-name: anime2;
+    animation-direction: alternate-reverse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes anime2 {
+    
+    0%{
+        display: none;
+    }
+    25%{
+       
+    }
+    50%{
+        display: none;
+    }
+    75%{
+       
+    }
+    100%{
+        display: inline;
+    }
+    
+
+}
+
+.m3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+} */
+
+.twond{
+
+    
+
+}
+
+.top2{
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.a1{
+
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 18.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+.a2{
+
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    
+}
+.a3{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 17.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.a4{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+.a5{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 16.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+.a6{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+}
+.a7{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 15.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+.a8{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+}
+.a9{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 14.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+.a10{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 4.5s;
+}
+.a11{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 13.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+.a12{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 5.5s;
+}
+.a13{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 12.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+.a14{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 6.5s;
+}
+.a15{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 11.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+}
+.a16{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 7.5s;
+}
+.a17{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 10.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+.a18{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;  
+    animation-delay: 8.5s; 
+}
+.a19{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 9.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+.a20{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 9.5s;
+}
+.a21{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 8.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+.a22{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 10.5s;
+}
+.a23{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 11s;
+}
+.a24{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;   
+    animation-delay: 11.5s;
+}
+.a25{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+}
+.a26{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 12.5s;
+}
+.a27{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 13s;
+}
+.a28{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 13.5s;
+}
+.a29{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 14s;
+}
+.a30{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 14.5s;
+}
+.a31{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+}
+.a32{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 15.5s;
+}
+.a33{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 16s;
+}
+.a34{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 16.5s;
+}
+.a35{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 17s;
+}
+.a36{
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 17.5s;
+}
+
+.threend{
+    display: grid;
+    grid-template-columns: 120vh 73vh;
+}
+
+div.threend{
+    height: 980px;
+}
+
+.threendOne{
+    /* width: 60vw; */
+    /* border: 2px solid purple; */
+    height: 1300px;
+}
+
+.threendTwo{
+    /* border: 2px solid blue; */
+}
+
+.g3{
+   margin-top: 20px;
+}
+
+.g4{
+    height: 4vh;
+}
+
+.g5{
+   position: relative;
+   bottom: 90px;
+}
+
+.stick{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.dis{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.spans{
+    margin-top: 13px;
+}
+
+.pro1,.pro2,.pro3,.pro4,.pro5,.pro6,.pro7,.pro8,.pro10{
+    font-size: 13px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: black;
+    font-weight: 800;
+    background-color: #F2F2F2;;
+    padding: 10px 15px 10px 15px;
+    transition: background-color 0.9s ease;
+    transition: border-color 0.9s ease;
+}
+
+.span1,.span2{
+    margin-top: 8px;
+}
+
+.more{
+    margin-top: 73px;
+    font-size: 13px;
+    color: #1A8917;
+    text-decoration: none;
+}
+
+.see{
+    margin-top: 13px;
+}
+
+.more:hover{
+    color: black;
+}
+
+.main2{
+    position: sticky;
+    top: 107px;
+}
+
+.mainExtra{
+    width: 60vh;
+    font-size: 13px;
+    opacity: 0.7;
+    height: 6vh;
+    /* border: 1px solid black; */
+}
+
+.extra{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.extra2{
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -15px;
+}
+
+.main3{
+    height: -30vh;
+    width: 45vw;
+    margin-left: 170px;
+    margin-top: 70px;
+}
+
+
+
+.e1,.e2,.e3,.e4,.e5,.e6{
+    margin-top: 50px;
+    /* border: 1px solid blue; */
+    height: 20vh;
+}
+
+.mmi{
+    width: 15vw;
+    height: 20vh;
+    display: inline-block;
+    margin-left: 459px;
+    margin-bottom: 300px;
+}
+
+.mi{
+    width: 25px;
+    height: 25px;
+    border-radius: 20%;
+    margin-right: 435px;
+    display: inline-block;
+  
+}
+
+.mme{
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 49px;
+}
+
+.me{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 25px;
+}
