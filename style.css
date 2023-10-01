@@ -1,0 +1,146 @@
+div{
+    height: 100vh;
+    width: 100vw;
+    background-color: slateblue;
+    background-size: cover;
+    background-image: url('bgm.png');
+    animation-name: moveImage;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    transition: background-position 1s ease;
+    animation-fill-mode: forwards;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+@keyframes moveImage {
+    
+    0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: -27000px 0; 
+      }
+
+}
+
+@keyframes moveRocket {
+
+0%{
+      bottom: 100px;
+      top: 350px;
+}
+
+50%{
+
+    top: 150px;
+}
+
+100%{
+    top: 350px;
+}
+    
+}
+
+.rocket{
+    background: none;
+    height: 200px;
+    width: 200px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 350px;
+    bottom: 100px;
+    left: 135px;
+    /* animation-name: moveRocket;
+    animation-duration: 1s;
+    animation-iteration-count: 5; */
+    animation: moveRocket 1s 5, rocketMoveUp 1s 1 5s forwards,rocketGoes 2s 1 6s forwards;
+
+}
+
+@keyframes rocketGoes {
+
+    0%{
+        top: 350px;
+        transform: rotate(-45deg);
+    }
+
+    50%{
+        top: 380px;
+    }
+
+    100%{
+        top: -342px;
+    }
+    
+
+}
+
+.imrocket{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes moveMan {
+    
+    0%{
+        top: 400px;
+        left: -40px;
+    }
+
+    100%{
+        top: 320px;
+        left: 200px;
+    }
+
+
+}
+
+@keyframes rocketMoveUp {
+
+    0%{
+        top: 350px;
+    }
+
+    100%{
+        transform: rotate(-45deg);
+    }
+    
+}
+
+@keyframes insertMan{
+
+    0%{
+        top: 320px;
+        left: 200px;
+    }
+
+    100%{
+        top: 270px;
+        left: 270px;
+        transform: scale(0);
+    }
+
+}
+
+.rocketman{
+    background: none;
+    height: 80px;
+    width: 40px;
+    position: absolute;
+    top: 400px;
+    /* bottom: 900px; */
+    left: -40px;
+    animation: moveMan 2s 1,insertMan 0.4s 1 2s;
+    /* animation-name: moveMan;
+    animation-duration: 2s;
+    animation-iteration-count: 1; */
+}
+
+.man{
+    height: 100%;
+    width: 100%;
+}
